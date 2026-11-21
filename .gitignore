@@ -1,0 +1,62 @@
+# Flutter / Dart generated files
+.dart_tool/
+.packages
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+
+# Android build and local machine configuration
+android/.gradle/
+android/local.properties
+android/key.properties
+android/**/local.properties
+
+# Signing keys and certificates — never commit these
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.der
+*.crt
+*.cer
+
+# Firebase / Google service credentials
+**/google-services.json
+**/GoogleService-Info.plist
+firebase_options.dart
+
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+*.secret
+*.secrets
+secrets.*
+credentials.*
+
+# Dart / Flutter tool state and generated plugin metadata
+.dart_tool/
+android/.cxx/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and local reports
+*.log
+coverage/
+
+# Local emulator / device configuration
+.android/
+*.avd/
+
+# IDE and editor files
+.vscode/
+*.code-workspace
